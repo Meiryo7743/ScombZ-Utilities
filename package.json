@@ -12,7 +12,10 @@
     "url": "https://github.com/yudai1204/ScombZ-Utilities/issues"
   },
   "homepage": "https://github.com/yudai1204/ScombZ-Utilities#readme",
-  "scripts": {},
+  "scripts": {
+    "build": "webpack",
+    "build:dev": "webpack --mode development"
+  },
   "devDependencies": {
     "eslint": "^8.14.0",
     "eslint-config-standard": "^17.0.0",

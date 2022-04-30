@@ -1,3 +1,5 @@
+import { s2b } from '../loadSettings'
+
 // メニューを閉じる
 export default () => {
   console.log('メニューを閉じます')

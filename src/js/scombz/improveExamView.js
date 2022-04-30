@@ -1,3 +1,5 @@
+import { s2b } from '../loadSettings'
+
 export default () => {
   // テスト改善
   if (

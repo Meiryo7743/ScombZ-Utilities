@@ -1,3 +1,5 @@
+import { s2b } from '../loadSettings'
+
 export default () => {
   // 横メニュー
   if ($settings_submenu) {

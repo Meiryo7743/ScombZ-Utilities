@@ -1,0 +1,13 @@
+{
+  "name": "ScombZ-Utilities",
+  "namespace": "https://twitter.com/yudai1204",
+  "version": "1.0.0",
+  "description": "より快適なScombZライフのために、サイドメニュー、テスト、ログインを改善します",
+  "author": "@yudai1204 , @to_ku_me",
+  "match": [
+    "https://scombz.shibaura-it.ac.jp/*",
+    "https://adfs.sic.shibaura-it.ac.jp/adfs/ls/*",
+    "http://syllabus.sic.shibaura-it.ac.jp/*"
+  ],
+  "icon": "https://scombz.shibaura-it.ac.jp/favicon.ico"
+}

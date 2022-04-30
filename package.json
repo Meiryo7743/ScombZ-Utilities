@@ -29,5 +29,9 @@
     "rollup-plugin-chrome-extension": "^3.6.8",
     "rollup-plugin-userscript": "^0.1.1",
     "rollup-plugin-userscript-metablock": "^0.3.1"
+  },
+  "volta": {
+    "node": "16.15.0",
+    "npm": "8.8.0"
   }
 }

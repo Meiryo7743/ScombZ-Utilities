@@ -40,17 +40,17 @@ export default () => {
     finishedReport: localStorage.getItem('udai:settings_finished_report')
   }
 
-  export const s2b = (str) => {
-    if (str == 'true' || str === null || typeof str === 'undefined') {
-      return true
-    } else {
-      return false
-    }
-  }
-
   for (const item of extensionSettings) {
     console.log(item.key + item)
   }
 
   console.log('読み込み完了')
+}
+
+export const s2b = (str) => {
+  if (str == 'true' || str === null || typeof str === 'undefined') {
+    return true
+  } else {
+    return false
+  }
 }

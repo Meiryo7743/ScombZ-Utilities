@@ -1,5 +1,5 @@
-import detectRedirect from './sillabus/detectRedirect'
-import improveSyllabusView from './sillabus/improveSyllabusView'
+import detectRedirect from './syllabus/detectRedirect'
+import improveSyllabusView from './syllabus/improveSyllabusView'
 
 // シラバス適用
 export default () => {

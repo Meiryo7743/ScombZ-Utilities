@@ -16,13 +16,13 @@ export default [
     ]
   },
   {
-    input: './src/index.js',
+    input: './src/main.js',
     output: {
       file: './dist/bundle.user.js',
       format: 'esm'
     },
     plugins: [
-      userscript('./src/index.js'),
+      userscript('./src/main.js'),
       metablock({
         file: './meta.json',
         override: {

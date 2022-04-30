@@ -19,7 +19,7 @@
         "https://adfs.sic.shibaura-it.ac.jp/adfs/ls/*",
         "http://syllabus.sic.shibaura-it.ac.jp/*"
       ],
-      "js": ["index.js"]
+      "js": ["main.js"]
     }
   ],
   "permissions": ["storage"]

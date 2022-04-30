@@ -4,7 +4,7 @@
   "version": "2.5.0",
   "action": {
     "default_title": "設定",
-    "default_popup": "popup.html"
+    "default_popup": "popup/index.html"
   },
   "description": "使いにくいScombZのサイドメニューやテストを修正したり、ADFSボタンの自動スキップができます。よりユーザビリティに優れたScombZを提供します。",
   "icons": {

@@ -1,12 +1,16 @@
 // ログインボタン自動クリック
-const autoLogin = () => {
-  if (document.domain === 'scombz.shibaura-it.ac.jp/login') {
-    window.onload = () => {
-      console.log('ログインボタンをクリックします')
-      document.querySelector('.login-btn:nth-child(1)').click()
-      console.log('ログインボタンをクリックしました')
-    }
+export default () => {
+  const currentLocation = window.location.origin + window.location.pathname
+  if (currentLocation === 'https://scombz.shibaura-it.ac.jp/login') {
+    window.addEventListener('DOMContentLoaded', skipLoginPage())
   } else {
     // Nothing
   }
+}
+
+const skipLoginPage = () => {
+  console.log('ログインボタンをクリックします')
+  const loginButton = document.querySelector('#comAuth > div > a:nth-child(1)')
+  loginButton.click()
+  console.log('ログインボタンをクリックしました')
 }

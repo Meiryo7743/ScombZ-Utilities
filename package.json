@@ -16,19 +16,19 @@
     "build": "rollup -c"
   },
   "devDependencies": {
-    "eslint": "^8.14.0",
-    "eslint-config-standard": "^17.0.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-n": "^15.2.0",
-    "eslint-plugin-promise": "^6.0.0",
+    "eslint": "8.14.0",
+    "eslint-config-standard": "17.0.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-n": "15.2.0",
+    "eslint-plugin-promise": "6.0.0",
     "prettier": "2.6.2"
   },
   "dependencies": {
-    "encoding-japanese": "^2.0.0",
-    "rollup": "^2.70.2",
-    "rollup-plugin-chrome-extension": "^3.6.8",
-    "rollup-plugin-userscript": "^0.1.1",
-    "rollup-plugin-userscript-metablock": "^0.3.1"
+    "encoding-japanese": "2.0.0",
+    "rollup": "2.70.2",
+    "rollup-plugin-chrome-extension": "3.6.8",
+    "rollup-plugin-userscript": "0.1.1",
+    "rollup-plugin-userscript-metablock": "0.3.1"
   },
   "volta": {
     "node": "16.15.0",
